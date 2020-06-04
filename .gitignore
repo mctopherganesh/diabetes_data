@@ -6,3 +6,4 @@ journal/
 .gitignore
 .dis_test.py.swp
 __pycache__/
+README.md.backup
