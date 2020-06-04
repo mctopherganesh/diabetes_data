@@ -4,3 +4,5 @@ dis_test.py.swp
 journal
 journal/
 .gitignore
+.dis_test.py.swp
+__pycache__/
