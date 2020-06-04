@@ -23,7 +23,7 @@ In this project I am trying to create an interface in which I can enter the data
 ##### (Pipeline) Dreams for future versions of project
 
 - I would like to be able to request certain kinds of graphs with customized commands on discord and have a graph returned to me as a ping (blood sugar for the day, week, compared to last week, etc.)
-- create additional databases to cross analyze information, what food I'm eating, [emotions tracking](https://github.com/mctopherganesh/emotions_tracking)
+- create additional databases to cross analyze information, what food I'm eating, [emotions tracking](https://github.com/mctopherganesh/emotions_tracking), and maybe a database tracking my productivity.
 
 
 ##### Quick summary on process so far
