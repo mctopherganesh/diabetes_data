@@ -3,6 +3,13 @@
 
 In this project I am trying to create an interface in which I can enter the data I collect about my blood sugar easily. I chose a blood sugar monitor that didn't have an app specifically so I could create a project like this.
 
+# Progress so far:
+
+<figure class="video_container">
+  <iframe src="https://youtu.be/8Z6Zoao9YLI" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
+
 #### The project objectives 
 
 - Challenge myself to build a data pipeline from scratch
