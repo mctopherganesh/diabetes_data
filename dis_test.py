@@ -1,7 +1,7 @@
-# Work with Python 3.6
 import discord
 from discord.ext import commands
 import os
+import dis_helper
 
 TOKEN = os.environ.get('discord_token')
 
@@ -11,15 +11,18 @@ client = commands.Bot(command_prefix = '$')
 async def ping(ctx):
     await ctx.send(f'Pong! (round(client.latency*1000))ms')
 
-def export_list(l):
-    pass
-    # https://discordpy.readthedocs.io/en/latest/ext/commands/commands.html
+
+# https://discordpy.readthedocs.io/en/latest/ext/commands/commands.html
 @client.command()
 async def bs(ctx, arg):
     await ctx.send(arg)
-    temp_list = []
-    temp_list.append(arg.strip())
-    print(temp_list)
+    bs = arg.strip()
+    dis_helper.sqlite_create_table()
+    dtstmp = dis_helper.return_date()
+    new_row = dis_helper.reads_in_bs(bs)
+    dis_helper.sqlite_data_entry(new_row)
+    
+    
 
 @client.event
 async def on_ready():
